@@ -3,9 +3,9 @@ import React from "react";
 function ToyCard() {
   return (
     <div className="card">
-      <h2>{"" /* Toy's Name */}</h2>
+      <h2>{ toy.name }</h2>
       <img
-        src={"" /* Toy's Image */}
+        src={ toy.image}
         alt={"" /* Toy's Name */}
         className="toy-avatar"
       />

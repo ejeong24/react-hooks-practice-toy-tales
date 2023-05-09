@@ -5,7 +5,8 @@ import ToyForm from "./ToyForm";
 import ToyContainer from "./ToyContainer";
 
 function App() {
-  const [showForm, setShowForm] = useState(false);
+  const [showForm, setShowForm] = useState(false)
+  const [toys, setToys] = useState(null)
 
   function handleClick() {
     setShowForm((showForm) => !showForm);
